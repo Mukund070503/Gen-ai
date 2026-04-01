@@ -1,7 +1,7 @@
 import { GoogleGenAI,Type } from "@google/genai";
 import readlineSync from 'readline-sync';
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAzeyzp8NGsZx6KdLZggcPwFvI0rJnuA8I" });
+const ai = new GoogleGenAI({ apiKey: "xyz" });
 const history = []
 // Example Functions
 function get_weather_forecast({ location }) {
