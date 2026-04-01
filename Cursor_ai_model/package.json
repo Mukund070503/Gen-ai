@@ -1,0 +1,21 @@
+{
+  "name": "cursor_ai_model",
+  "version": "1.0.0",
+  "description": "Cursor based ai agent",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mukund",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.47.0",
+    "child_process": "^1.0.2",
+    "create-react-app": "^5.1.0",
+    "os": "^0.1.2",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5"
+  },
+  "keywords": []
+}
