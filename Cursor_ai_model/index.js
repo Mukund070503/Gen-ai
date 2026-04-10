@@ -4,7 +4,7 @@ import {exec} from 'child_process';
 import {promisify} from 'util';
 import os from 'os';
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyA-lH7eFrkpvf7KYR8ei6lWIIgKuL3kaVU" });
+const ai = new GoogleGenAI({ apiKey: "xyz" });
 const History = []
 
 const platform = os.platform();
